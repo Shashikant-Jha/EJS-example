@@ -1,0 +1,13 @@
+body {
+    background-image: url('/images/bckgrd.jpeg');
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    position: absolute;
+    bottom: 0;
+    font-size: 80px !important;
+    left: 20%;
+    font-family: lobster-two, cursive;
+}

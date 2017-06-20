@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <%- include partials/head.ejs %>
+</head>
+
+<body>
+    <%- include partials/menu.ejs%>
+        <div class="container">
+          <div class="row">
+              <% for(var i=1;i<=numberofimages;i++) {%>
+                 <div class="col-md-6">
+                   <div class="thumbnail">
+                       <img src="/images/<%=city%>/<%=city%>-<%=i%>.jpg">
+                   </div>
+                 </div>
+                  <%}%>
+ 
+          </div>
+        </div>
+
+</body>
+<%- include partials/jsIncludes.ejs%>
+
+</html>
